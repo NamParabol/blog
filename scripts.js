@@ -28,15 +28,7 @@ function readData() {
                 table_output += `<tr>
                 <th scope="row">${row + 1}</th>
                 <td>${sheet_data[row][0]}</td>
-                <td>
-                    <a href="${sheet_data[row][3]}" target="_blank"><img
-                        height="100px"
-                        src="${sheet_data[row][1]}"
-                        alt="${sheet_data[row][2]}"
-                        title="${sheet_data[row][2]}"
-                        onerror="this.src='default.png';"
-                    /></a>
-                </td>
+                <td>${sheet_data[row][1]}</td>
                 <td>${sheet_data[row][2]}</td>
                 <td>
                     <a
